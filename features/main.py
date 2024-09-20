@@ -6,7 +6,7 @@ from recommendation import Recommender
 def main():
     # Create instances of the classes
     sentiment_analyzer = SentimentAnalyzer()
-    recommender = Recommender('Series_name_dataset.csv', 'Music_dataset.csv')
+    recommender = Recommender('./Data/Series_name_dataset.csv', './Data/Music_dataset.csv')
 
     # Get user input
     user_input = input("How are you feeling today? ")
